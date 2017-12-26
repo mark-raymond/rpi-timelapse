@@ -1,0 +1,13 @@
+- Updated Raspbian
+   - `sudo apt-get update`
+   - `sudo apt-get upgrade`
+- Set time zone
+   - `sudo dpkg-reconfigure tzdata`
+- Enabled camera & ssh, set hostname to mdr-timelapse, set memory split to 128MB
+   - `sudo raspi-config`
+- Install & set up git
+   - `sudo apt-get install git`
+   - `git config --global user.email "<email address here>"`
+   - `git config --global user.name "<name here>"`
+- Initialised git repo in ~
+   - `git init .`
