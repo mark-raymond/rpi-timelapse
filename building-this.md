@@ -11,6 +11,6 @@
    - `git config --global user.name "<name here>"`
 - Initialised git repo in ~
    - `git init .`
-- Added start-timelapse.sh and stop-timelapse.sh
+- Wrote shell scripts
 - Added crontab entry
    - `@reboot /home/mark/start-timelapse.sh`
